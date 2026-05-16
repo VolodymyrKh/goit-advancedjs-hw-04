@@ -1,0 +1,38 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+}
+
+.gallery-item {
+  width: calc((100% - 2 * 1.5rem) / 3);
+  border: 1px solid rgba(128, 128, 128, 1);
+}
+
+.gallery-image {
+  object-fit: cover;
+  height: 240px;
+  width: 372px;
+}
+
+.img-info-list {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.img-info-item {
+  text-align: center;
+  font-size: 12px;
+}
+
+.info-type {
+  line-height: 1.33;
+  font-weight: 700;
+}
+
+.img-info {
+  line-height: 2;
+}
