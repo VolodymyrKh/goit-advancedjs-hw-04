@@ -26,6 +26,7 @@ let userQuery = '';
 
 async function onSearchFormSubmit(event) {
   event.preventDefault();
+  hideLoadMoreBtn(refs.loadMore);
 
   const { target: searchForm } = event;
   userQuery = searchForm.elements['search-text'].value.trim();
