@@ -8,7 +8,7 @@
     <script type="module" crossorigin src="/goit-advancedjs-hw-04/index.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-VVWBAj3V.js">
     <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-DumFYO8Z.css">
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-D4iszC0A.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-BxipS-Hs.css">
   </head>
   <body>
     <main>
@@ -21,10 +21,20 @@
               placeholder="Search images..."
             />
           </label>
-          <button class="submit-btn js-submit-btn" type="submit">Search</button>
+          <button class="submit-btn btn js-submit-btn" type="submit">
+            Search
+          </button>
         </form>
-        <ul class="gallery js-gallery"></ul>
-        <span class="loader js-loader"></span>
+        <div class="gallery-wrapper">
+          <ul class="gallery js-gallery"></ul>
+          <button
+            class="load-more-btn btn js-load-more is-hidden"
+            type="button"
+          >
+            Load more
+          </button>
+          <span class="loader js-loader"></span>
+        </div>
       </div>
     </main>
   </body>
