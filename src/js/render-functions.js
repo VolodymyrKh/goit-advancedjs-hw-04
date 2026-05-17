@@ -58,4 +58,20 @@ const showLoader = loader => {
   loader.classList.add('is-active');
 };
 
-export { lightBox, clearGallery, createGallery, hideLoader, showLoader };
+const hideLoadMoreBtn = loadBtn => {
+  loadBtn.classList.add('is-hidden');
+};
+
+const showLoadMoreButton = loadBtn => {
+  loadBtn.classList.remove('is-hidden');
+};
+
+export {
+  lightBox,
+  clearGallery,
+  createGallery,
+  hideLoader,
+  showLoader,
+  hideLoadMoreBtn,
+  showLoadMoreButton,
+};

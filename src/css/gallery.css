@@ -1,12 +1,16 @@
+.gallery-wrapper {
+  padding-bottom: 1rem;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1rem;
 
 }
 
 .gallery-item {
-  width: calc((100% - 2 * 1.5rem) / 3);
+  width: calc((100% - 4 * 1rem) / 5);
   border: 1px solid rgba(128, 128, 128, 1);
 }
 
@@ -35,4 +39,13 @@
 
 .img-info {
   line-height: 2;
+}
+
+.load-more-btn {
+  display: block;
+  margin: 3rem auto;
+}
+
+.load-more-btn.is-hidden {
+  display: none;
 }

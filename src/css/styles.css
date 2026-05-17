@@ -14,4 +14,13 @@
   margin-right: auto;
 }
 
+.btn {
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(78, 117, 255, 1);
+}
 

@@ -19,10 +19,20 @@
               placeholder="Search images..."
             />
           </label>
-          <button class="submit-btn js-submit-btn" type="submit">Search</button>
+          <button class="submit-btn btn js-submit-btn" type="submit">
+            Search
+          </button>
         </form>
-        <ul class="gallery js-gallery"></ul>
-        <span class="loader js-loader"></span>
+        <div class="gallery-wrapper">
+          <ul class="gallery js-gallery"></ul>
+          <button
+            class="load-more-btn btn js-load-more is-hidden"
+            type="button"
+          >
+            Load more
+          </button>
+          <span class="loader js-loader"></span>
+        </div>
       </div>
     </main>
   </body>
